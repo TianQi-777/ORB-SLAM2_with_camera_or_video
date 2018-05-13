@@ -34,12 +34,14 @@ Please cite(https://github.com/raulmur/ORB_SLAM2) for more details.
    ./Examples/Myslam/myslam  
 
 ## Result
+**camera**  
 <div align=center>  
   
-![](https://github.com/TianQi-777/TrackAlignmentWith_ICP/blob/master/images/Alignment.png)
+![](https://github.com/TianQi-777/ORB-SLAM2_with_camera_or_video/blob/master/Images/camera.png)
 </div>  
 
+**video**  
 <div align=center>  
   
-![](https://github.com/TianQi-777/TrackAlignmentWith_ICP/blob/master/images/Alignment.png)
+![](https://github.com/TianQi-777/ORB-SLAM2_with_camera_or_video/blob/master/Images/video.png)
 </div>
