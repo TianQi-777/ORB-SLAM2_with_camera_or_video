@@ -33,4 +33,13 @@ Please cite(https://github.com/raulmur/ORB_SLAM2) for more details.
    or  
    ./Examples/Myslam/myslam  
 
- 
+## Result
+<div align=center>  
+  
+![](https://github.com/TianQi-777/TrackAlignmentWith_ICP/blob/master/images/Alignment.png)
+</div>  
+
+<div align=center>  
+  
+![](https://github.com/TianQi-777/TrackAlignmentWith_ICP/blob/master/images/Alignment.png)
+</div>
