@@ -23,11 +23,11 @@ Please cite(https://github.com/raulmur/ORB_SLAM2) for more details.
    in myvideo.cpp  
    string parameterFile = "XXX/ORB_SLAM2/Examples/Myslam/myslam.yaml";  
    string vocFile = "XXX/ORB_SLAM2/Vocabulary/ORBvoc.txt";  
-   string videoFile = "XXX/XXX.mp4";
+   string videoFile = "XXX/XXX.mp4";(Prepare by yourself)
    
 5. Re-build all programs like raw ORB-SLAM2
 
-6. Run
+6. Run 
    Current operating environment:XXX/ORB_SLAM2  
    ./Examples/Myslam/myvideo  
    or  
