@@ -7,7 +7,7 @@
 #include "System.h"
 
 #include <string>
-#include <chrono>   // for time stamp
+#include <chrono>   // time stamp
 #include <iostream>
 
 using namespace std;
@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
     ORB_SLAM2::System SLAM(vocFile, parameterFile, ORB_SLAM2::System::MONOCULAR, true);
 
     // 获取相机图像代码
-    cv::VideoCapture cap(0);    // change to 1 if you want to use USB camera.
+    cv::VideoCapture cap(0);    // 如果使用USB的外接相机就设置为1.
 
     // 分辨率设为640x480
     cap.set(CV_CAP_PROP_FRAME_WIDTH, 640);
