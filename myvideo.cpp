@@ -7,7 +7,7 @@
 #include "System.h"
 
 #include <string>
-#include <chrono>   // for time stamp
+#include <chrono>   // time stamp
 #include <iostream>
 
 using namespace std;
@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
     ORB_SLAM2::System SLAM(vocFile, parameterFile, ORB_SLAM2::System::MONOCULAR, true);
 
     // 获取视频图像
-    cv::VideoCapture cap(videoFile);    // change to 1 if you want to use USB camera.
+    cv::VideoCapture cap(videoFile);    // 如果使用USB的外接相机就设置为1.
 
     // 记录系统时间
     auto start = chrono::system_clock::now();
@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
         if ( frame.data == nullptr )
             break;
 
-        // rescale because image is too large
+        // 因为图片太大了，需要重新设置尺寸
         cv::Mat frame_resized;
         cv::resize(frame, frame_resized, cv::Size(640,360));
 
